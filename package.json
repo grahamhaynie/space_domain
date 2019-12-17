@@ -1,0 +1,14 @@
+{
+  "name": "space_domain",
+  "version": "1.0.0",
+  "description": "TODO:\r > use express and node to build basic site\r > add sample project\r > add LetsEncrypt or some sort of working encryption",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
