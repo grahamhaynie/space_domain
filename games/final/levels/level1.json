@@ -1,0 +1,32 @@
+{
+    "name":"Level 1",
+    "difficulty":"1",
+    "tilemap" : 
+       ["wwwwwwwwwwwwwww",
+        "wt           tw",
+        "w             w",
+        "w   wwwwwww   w",
+        "w  w   t   w  w",
+        "w  w   b   w  w",
+        "w             w",
+        "w      p      w",
+        "w             w",
+        "w  w   b   w  w",
+        "w  w   t   w  w",
+        "w   wwwwwww   w",
+        "w             w",
+        "wt           tw",
+        "wwwwwwwwwwwwwww"
+    ],
+    "waves" : [
+        ["Wave 1" , 4, 0],
+        ["Wave 2" , 2, 4],
+        ["Wave 3" , 4, 4],
+        ["Wave 4" , 4, 6],
+        ["Wave 5" , 4, 8],
+        ["Final Wave", 8, 10]
+    ],
+    "helpTexts" : ["When you see 'build phase' appear, use the time to\nbuild up or repair defenses.",
+        "Here comes the final wave. Use this prep phase\nto repair any holes in your defenses"],
+    "actions" : ["t", "p", "w", "w", "w", "w", "w", "t", "p", "w"]
+}

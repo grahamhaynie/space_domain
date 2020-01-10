@@ -5,24 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>Graham Haynie - About</title>
+    <title>Graham Haynie - Initial Animation</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="navbar-top-fixed.css" rel="stylesheet">
+    <link href="../../navbar-top-fixed.css" rel="stylesheet">
 
     <!--font awesome stuff-->
     <script src="https://kit.fontawesome.com/9724c4fcdd.js" crossorigin="anonymous"></script>
+
+    <!-- processing source code -->
+    <script src="https://cdn.jsdelivr.net/npm/p5"></script>
+
+     <!-- game scripts -->
+     <script src="project0.js"></script>
   </head>
 
   <body>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,15 +38,15 @@
             <span class="navbar-brand h4 text-success mr-3">Graham Haynie</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light h5" href="#">About</a>
+            <a class="nav-link text-light h5" href="../../index.html">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="games.html">Video Game Design and Engineering</a>
-              <a class="dropdown-item" href="ai.html">Artificial Intelligence</a>
+              <a class="dropdown-item" href="../../games.html">Video Game Design</a>
+              <a class="dropdown-item" href="../../ai.html">Artificial Intelligence</a>
             </div>
           </li>
         </ul>
@@ -56,18 +62,31 @@
     </nav>
 
     <main role="main" class="container-fluid">
-      <div class="jumbotron mx-5">
-        <h1>Home</h1>
-        <p class="lead">TODO: write blurb about self, have link to other websites</p>
-       </div>
+      <div class="row justify-content-center my-5">
+        <div id="sketch-holder"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="jumbotron mx-5">
+          <h1>Project 0 - Initial Animation</h1>
+          <p class="lead"><strong>Genre:</strong> Animation</p>
+          <p class="lead"><strong>Concepts:</strong> Game loop, game architecture, basic animation</p>
+          <p class="lead"><strong>Description:</strong></p>
+          <p class="lead">
+            This being the first project, the goal was to learn basic JavaScript using the <a href="https://p5js.org/">Processing</a> library. 
+            To accomplish this, a logo (my initials) with animation was created using basic shapes. 
+            The small white spheres are generated with coordinates outside of the animation window, and are projected inwards. 
+            Once they collide with invisible rectangles, they are locked in place.
+          </p>
+        </div>  
+      </div>
     </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="bootstrap/assets/js/vendor/popper.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

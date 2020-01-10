@@ -1,0 +1,31 @@
+{
+    "name":"Level 3",
+    "difficulty":"2",
+    "tilemap" : 
+       ["wwwwwww wwwwwww",
+        "w     w       w",
+        "w     lwww    w",
+        "w             w",
+        "w             w",
+        "w             w",
+        "w    t   t    w",
+        "w    b p b    w",
+        "w    t   t    w",
+        "w             w",
+        "w             w",
+        "w             w",
+        "w    wwwl     w",
+        "w       w     w",
+        "wwwwwww wwwwwww"
+    ],
+    "waves" : [
+        ["Wave 1" , 0, 8],
+        ["Wave 2" , 4, 10],
+        ["Wave 3" , 6, 10],
+        ["Wave 4" , 8, 10],
+        ["Wave 5" , 10, 12],
+        ["Final Wave", 12, 14]
+    ],
+    "helpTexts" : ["Notice the new block? Its a lightning turret that\ncan zap multiple enemies at once. Watch this."],
+    "actions" : ["t", "w", "p", "w", "w", "w", "w", "p", "w"]
+}

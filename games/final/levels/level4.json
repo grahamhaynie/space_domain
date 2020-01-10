@@ -1,0 +1,40 @@
+{
+    "name":"Level 4",
+    "difficulty":"3",
+    "tilemap" : 
+       ["wwwwwwwwwwwwwwwwwwww",
+        "w                  w",
+        "w                  w",
+        "w  l      p     l  w",
+        "w                  w",
+        "w                  w",
+        "w     bwwwwwwb     w",
+        "w     w      w     w",
+        "w     w      w     w",
+        "w     w  tt  w     w",
+        "w     w  tt  w     w",
+        "w     w      w     w",
+        "w     w      w     w",
+        "w     bwwwwwwb     w",
+        "w                  w",
+        "w                  w",
+        "w  l            l  w",
+        "w                  w",
+        "w                  w",
+        "wwwwwwwwwwwwwwwwwwww"
+    ],
+    "waves" : [
+        ["Wave 1" , 4, 0],
+        ["Wave 2" , 6, 2],
+        ["Wave 3", 8, 4],
+        ["Wave 4", 10, 6],
+        ["Wave 5", 10, 8],
+        ["Wave 6", 10, 10],
+        ["Wave 7", 10, 12],
+        ["Wave 8", 10, 14],
+        ["Wave 9", 10, 14],
+        ["Final wave", 12, 12]
+    ],
+    "helpTexts" : [],
+    "actions" : ["p", "w", "w", "w", "w", "w", "p", "w", "w", "w", "w", "w"]
+}

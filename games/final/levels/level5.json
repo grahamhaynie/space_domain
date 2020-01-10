@@ -1,0 +1,30 @@
+{
+    "name":"Level 5",
+    "difficulty":"4",
+    "tilemap" : 
+       ["wwwwwwwwwwwwwww",
+        "w             w",
+        "w w         w w",
+        "w  w       w  w",
+        "w   w     w   w",
+        "w    w l w    w",
+        "w             w",
+        "w    t b t    w",
+        "w             w",
+        "w    w l w    w",
+        "w   w     w   w",
+        "w  w   p   w  w",
+        "w w         w w",
+        "w             w",
+        "wwwwwwwwwwwwwww"
+    ],
+    "waves" : [
+        ["Wave 1" , 8, 8],
+        ["Wave 2" , 10, 10],
+        ["Wave 3" , 12, 12],
+        ["Wave 4" , 12, 12],
+        ["Final Wave" , 12, 12]
+    ],
+    "helpTexts" : ["No way you beat this one."],
+    "actions" : ["p", "t", "w", "w", "w", "w", "w"]
+}

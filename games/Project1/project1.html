@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../favicon.ico">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>Graham Haynie - Initial Animation</title>
+    <title>Graham Haynie - Hyperspace</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../navbar-top-fixed.css" rel="stylesheet">
+    <link href="../../navbar-top-fixed.css" rel="stylesheet">
 
     <!--font awesome stuff-->
     <script src="https://kit.fontawesome.com/9724c4fcdd.js" crossorigin="anonymous"></script>
+
+    <!-- processing source code -->
+    <script src="https://cdn.jsdelivr.net/npm/p5"></script>
+
+     <!-- game scripts -->
+     <script src="project1.js"></script>
   </head>
 
   <body>
@@ -32,15 +38,15 @@
             <span class="navbar-brand h4 text-success mr-3">Graham Haynie</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light h5" href="../index.html">About</a>
+            <a class="nav-link text-light h5" href="../../index.html">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../games.html">Video Game Design</a>
-              <a class="dropdown-item" href="../ai.html">Artificial Intelligence</a>
+              <a class="dropdown-item" href="../../games.html">Video Game Design</a>
+              <a class="dropdown-item" href="../../ai.html">Artificial Intelligence</a>
             </div>
           </li>
         </ul>
@@ -56,18 +62,35 @@
     </nav>
 
     <main role="main" class="container-fluid">
-      <div class="jumbotron mx-5">
-        <h1>Project 0 - Initial Animation</h1>
-        <p class="lead">TODO - description</p>
-       </div>
+      <div class="row justify-content-center my-5">
+        <div id="sketch-holder"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="jumbotron mx-5">
+          <h1>Project 1 - Hyperspace</h1>
+          <p class="lead"><strong>Genre: Shoot-em-up</strong> Animation</p>
+          <p class="lead"><strong>Concepts:</strong> Game loop, game architecture, action + interaction</p>
+          <p class="lead"><strong>Description:</strong></p>
+          <p class="lead">
+            A continuation of the previous project, the animation from Project 0 is used as the starting screen. 
+            When the player clicks the letter containing the green trianglle, they are presented instructions and can start the game. 
+            The focus of this was creating a game based on user input - clicking to control the menu and the left/right arrow keys to control the game's player.
+          </p>
+          <p class="lead"><strong>Gameplay:</strong></p>
+          <p class="lead">
+            Click the 'G' once the green arrow appears to begin the game by being presented the instructions.
+            Once you've read the instruction, click the 
+          </p>
+        </div>  
+      </div>
     </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../bootstrap/assets/js/vendor/popper.min.js"></script>
-    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

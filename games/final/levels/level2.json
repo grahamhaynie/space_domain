@@ -1,0 +1,31 @@
+{
+    "name":"Level 2",
+    "difficulty":"2",
+    "tilemap" : 
+       ["wwwwwwwwwwwwwww",
+        "wt           tw",
+        "w             w",
+        "w             w",
+        "w     wtw     w",
+        "w      b      w",
+        "w             w",
+        "w      p      w",
+        "w             w",
+        "w      b      w",
+        "w     wtw     w",
+        "w             w",
+        "w             w",
+        "wt           tw",
+        "wwwwwwwwwwwwwww"
+    ],
+    "waves" : [
+        ["Wave 1" , 4, 0],
+        ["Wave 2" , 4, 4],
+        ["Wave 3" , 4, 6],
+        ["Wave 4" , 6, 8],
+        ["Wave 5" , 8, 10],
+        ["Final Wave", 10, 10]
+    ],
+    "helpTexts" : ["This one is a little tricker, you may want to\nrebuild to defend the bases better."],
+    "actions" : ["t", "p", "w", "w", "w", "w", "w", "p", "w"]
+}
