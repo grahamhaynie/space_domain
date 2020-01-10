@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../../navbar-top-fixed.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../noscroll.css">
 
     <!--font awesome stuff-->
     <script src="https://kit.fontawesome.com/9724c4fcdd.js" crossorigin="anonymous"></script>
@@ -63,21 +64,24 @@
 
     <main role="main" class="container-fluid">
       <div class="row justify-content-center my-5">
+        <div class="col-sm-6">
+          <div class="jumbotron mx-5">
+              <h1>Project 0 - Initial Animation</h1>
+              <p class="lead"><strong>Genre:</strong> Animation</p>
+              <p class="lead"><strong>Concepts:</strong> Game loop, game architecture, basic animation</p>
+              <p class="lead"><strong>Description:</strong></p>
+              <p class="lead">
+                This being the first project, the goal was to learn basic JavaScript using the <a href="https://p5js.org/">Processing</a> library. 
+                To accomplish this, a logo (my initials) with animation was created using basic shapes. 
+                The small white spheres are generated with coordinates outside of the animation window, and are projected inwards. 
+                Once they collide with invisible rectangles, they are locked in place.
+                If a ball reaches the middle of the window without being locked in, it is regenerated outside the window.
+                Fun fact: Each instance of the animation produces different results, as the ball's initial positions are randomly generated.
+              </p>
+            </div>
+          </div>
         <div id="sketch-holder"></div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="jumbotron mx-5">
-          <h1>Project 0 - Initial Animation</h1>
-          <p class="lead"><strong>Genre:</strong> Animation</p>
-          <p class="lead"><strong>Concepts:</strong> Game loop, game architecture, basic animation</p>
-          <p class="lead"><strong>Description:</strong></p>
-          <p class="lead">
-            This being the first project, the goal was to learn basic JavaScript using the <a href="https://p5js.org/">Processing</a> library. 
-            To accomplish this, a logo (my initials) with animation was created using basic shapes. 
-            The small white spheres are generated with coordinates outside of the animation window, and are projected inwards. 
-            Once they collide with invisible rectangles, they are locked in place.
-          </p>
-        </div>  
+        
       </div>
     </main>
 
