@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Graham Haynie - Mars Invasion</title>
+    <title>Graham Haynie - Robot Factory II</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,29 +22,8 @@
     <!-- processing source code -->
     <script src="https://cdn.jsdelivr.net/npm/p5"></script>
 
-    <!-- game scripts -->
-    <!-- levels -->
-    <script src="./src/wave.js"></script>
-    <script type="application/json" src="./levels/level1.json"></script>
-    <script src="./src/level.js"></script>
-    <script src="./src/tutorial.js"></script>
-    <!-- game scripts -->
-    <script src="./src/wall.js"></script>
-    <script src="./src/base.js"></script>
-    <script src="./src/turret.js"></script>
-    <script src="./src/lturret.js"></script>
-    <script src="./src/boot.js"></script>
-    <script src="./src/collectible.js"></script>
-    <script src="./src/laser.js"></script>
-    <script src="./src/runner.js"></script>
-    <script src="./src/tunneler.js"></script>
-    <script src="./src/player.js"></script>
-    <script src="./src/menuplayer.js"></script>
-    <script src="./src/zapline.js"></script>
-    <script src="./src/vaultdoor.js"></script>
-    <script src="./src/menu.js"></script>
-    <script src="./src/game.js"></script>
-    <script src="./src/main.js"></script>
+     <!-- game scripts -->
+     <script src="project3.js"></script>
   </head>
 
   <body>
@@ -85,8 +64,31 @@
 
     <main role="main" class="container-fluid">
       <div class="row justify-content-center my-5">
+        <div class="col-sm-6">
+          <div class="jumbotron mx-5">
+              <h1>Project 3 - Robot Factory II</h1>
+              <p class="lead"><strong>Type: </strong>Game</p>
+              <p class="lead"><strong>Concepts: </strong>Scrolling tile-map, Finite-State-Machine, perspectives</p>
+              <p class="lead"><strong>Description:</strong></p>
+              <p class="lead">
+                The premise of this game is that the player can move around a static tile-map larger than the view of the player.
+                This means that the tile-map is still pre-defined and static just as in the previous project, but the player can only see a small portion of it in any given frame. 
+                To view another part of the map, the player must move to it.
+                The robots, player, and walls are pre-defined, but the discs are generated at random.
+                The concept of a game state was also applied to this project, to understand the incorporation of more complicated actions.
+              </p>
+              <p class="lead"><strong>Gameplay:</strong></p>
+              <p class="lead">
+                  To begin the game, click the starting screen. 
+                  Move the black robot around the map, noting that the perspective moves when the player moves to the inside of the map but remains the same near the edges. 
+                  Collect all of the blue and red discs to win, and avoid the purple robots. 
+                  The purple robots will move around at random, and when the player gets close will chase the player. 
+                  The red discs will temporarily empower the player, and nearby purple robots will flee.
+                  However, the player is faster and can catch and destroy the robots when empowered.
+              </p>
+            </div>
+          </div>
         <div id="sketch-holder"></div>
-      </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
